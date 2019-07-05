@@ -1,0 +1,109 @@
+/*********************
+LAYOUT & GRID STYLES
+*********************/
+.wrap {
+  width: 990px;
+}
+
+.large-wrapper {
+  width: 80%;
+}
+
+/****************************
+Global Section
+****************************/
+.page-title {
+  font-size: 45px;
+}
+
+/****************************
+Header Section
+****************************/
+#logo-text {
+  font-size: 60px;
+}
+
+/*********************
+NAVIGATION STYLES
+*********************/
+
+.nav {
+  li {
+    a {
+      font-size: 20px;
+      padding: 0.75rem 1.5rem;
+    }
+  }
+}
+
+/****************************
+Home Section
+****************************/
+.home {
+  .word {
+    font-size: 50px;
+  }
+  .definition {
+    font-size: 25px;
+  }
+  .example {
+    font-size: 25px;
+  }
+
+  .services {
+    .right-side {
+      .service {
+        height: 100%;
+      }
+    }
+  }
+  .blogs {
+    .title {
+      font-size: 45px;
+    }
+  }
+}
+
+/****************************
+Internal Section
+****************************/
+// About Page
+.page-id-31 {
+  .right {
+    font-size: 19px;
+  }
+}
+
+// Service Page
+.page-id-33 {
+  .service {
+    flex-wrap: nowrap;
+    margin-top: 2rem;
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+  .left {
+    width: auto;
+    .image {
+    }
+  }
+  .right {
+    width: 55%;
+    .text {
+      font-size: 16px;
+    }
+  }
+
+  // Testimonials
+  .testimonials {
+    .testimonial {
+      .review {
+        font-size: 22px;
+      }
+      .author {
+        font-size: 24px;
+      }
+    }
+  }
+}

@@ -1,0 +1,40 @@
+/*********************
+LAYOUT & GRID STYLES
+*********************/
+
+.wrap {
+  width: 1140px;
+}
+.large-wrapper {
+  width: 75%;
+  max-width: 1500px;
+}
+
+/****************************
+Header Section
+****************************/
+#logo-text {
+  font-size: 65px;
+}
+
+/*********************
+NAVIGATION STYLES
+*********************/
+
+.nav {
+  li {
+    a {
+      font-size: 22px;
+      padding: 0.5rem 1.75rem;
+    }
+  }
+}
+
+/****************************
+Home Section
+****************************/
+.home {
+  .word {
+    font-size: 65px;
+  }
+}
