@@ -303,6 +303,20 @@ Internal Section
   }
 }
 
+// Meditations
+.meditations {
+  .banner {
+    min-height: 300px;
+  }
+  .videos {
+    flex-wrap: nowrap;
+  }
+  .video {
+    width: 50%;
+    margin: 1rem;
+  }
+}
+
 /****************************
 Blog Section
 ****************************/
