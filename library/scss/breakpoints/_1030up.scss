@@ -107,3 +107,27 @@ Internal Section
     }
   }
 }
+
+/****************************
+Blog Section
+****************************/
+// About after blog post
+.about-author {
+  .bio {
+    width: 70%;
+  }
+  .about-side {
+    width: 30%;
+  }
+}
+
+// Links at bottom
+.internal-links {
+  a {
+    width: 70%;
+
+    &:nth-child(2) {
+      width: 30%;
+    }
+  }
+}

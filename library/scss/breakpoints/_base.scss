@@ -970,3 +970,123 @@ Woocommerce Section
     }
   }
 }
+
+/****************************
+Blog Section
+****************************/
+.sidebar-title {
+  text-transform: capitalize;
+  margin-top: 0;
+}
+.single-post {
+  .quote {
+    color: $lightblue;
+    margin: 1rem 0 2rem;
+  }
+  .quote-text {
+    margin: 0;
+  }
+  .quote-author {
+    margin: 10px 0 0;
+    font-weight: bold;
+  }
+
+  .entry-content {
+    font-size: 16px;
+  }
+
+  .single-title {
+    color: $white;
+    padding: 0.5rem 1rem;
+  }
+
+  .by {
+    font-size: 16px;
+  }
+
+  ol {
+    word-break: break-all;
+  }
+}
+
+// About after blog post
+.about-author {
+  .flex {
+    display: flex;
+    align-items: stretch;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .bio {
+    padding: 1rem;
+    background-color: $lightpurple;
+    color: $white;
+    .top {
+      display: flex;
+      align-items: center;
+      .name {
+        text-transform: capitalize;
+        font-weight: bold;
+        padding-left: 1rem;
+        font-size: 22px;
+      }
+    }
+    .titles {
+      display: inline-block;
+      margin: 0.5rem 0 1rem;
+      font-style: italic;
+    }
+    .content {
+      font-size: 18px;
+    }
+  }
+
+  .about-side {
+    padding: 1rem;
+    background-color: $lightblue;
+    color: lighten($black, 10%);
+
+    .verb-title {
+      text-align: center;
+      font-size: 22px;
+    }
+    .verb-contents {
+      text-align: center;
+      font-size: 16px;
+    }
+    .verb-definitions {
+      list-style: decimal inside;
+      li {
+        margin: 0.5rem 0;
+      }
+    }
+  }
+}
+
+// Links at bottom
+.internal-links {
+  margin-bottom: 1.5rem;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: stretch;
+  justify-content: center;
+  a {
+    display: inline-block;
+    padding: 1rem 8px;
+    text-align: center;
+    background-color: $lightblue;
+    color: $white;
+    font-size: 15px;
+    transition: all 0.3s ease-in-out;
+    &:hover {
+      background-color: $lightpurple;
+    }
+    &:nth-child(2) {
+      background-color: $lightpurple;
+      &:hover {
+        background-color: $lightblue;
+      }
+    }
+  }
+}

@@ -106,6 +106,10 @@ Global Section
   font-size: 40px;
 }
 
+.alignleft {
+  float: left;
+}
+
 /****************************
 Header Section
 ****************************/
@@ -331,4 +335,28 @@ Sidebar Section
 
 .sidebar {
   margin: 0;
+}
+
+/****************************
+Blog Section
+****************************/
+.single-post {
+  .single-title {
+    font-size: 30px;
+  }
+}
+
+// About after blog post
+.about-author {
+  .bio,
+  .about-side {
+    width: 50%;
+  }
+}
+
+// Links at bottom
+.internal-links {
+  a {
+    width: 50%;
+  }
 }

@@ -1,7 +1,10 @@
 				<div id="sidebar1" class="sidebar cf col-xs-12 col-sm-4 col-lg-4" role="complementary">
 
 					<?php if ( is_active_sidebar( 'sidebar1' ) ) : ?>
-
+						<h2 class="sidebar-title">stay connected</h2>
+						<p>Get the latest article on mojo balance, wellness, things that make you go hmmm straight to your inbox each week (or more often depending on how the stars align)</p>
+						<hr>
+						<?php echo do_shortcode('[mc4wp_form id="59"]'); ?>
 						<?php dynamic_sidebar( 'sidebar1' ); ?>
 
 					<?php else : ?>
