@@ -518,7 +518,7 @@ Home Section
       display: flex;
       flex-wrap: wrap;
       justify-content: center;
-      align-items: center;
+      align-items: stretch;
     }
     .title {
       font-weight: 300;
@@ -526,6 +526,7 @@ Home Section
       font-size: 30px;
       color: $purple;
     }
+
     .blog-image {
       display: inline-block;
       margin: 0.5rem 1rem;

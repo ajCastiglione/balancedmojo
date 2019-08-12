@@ -34,6 +34,17 @@ $blogs = new WP_Query($args);
 							<div class="verb">
 								<?php echo get_field('verbal_definition'); ?>
 							</div>
+
+							<section class="bio large-wrapper">
+								<div class="img">
+									<?php $bImg = get_field('page_content_image'); if(!empty($bImg)) {echo "<img class='image' src=$bImg[url] alt=$bImg[alt] />";} ?>
+								</div>
+								<div class="page-content">
+									<h1 class="title"><?php echo get_field('page_title'); ?></h1>
+									<div class="text"><?php echo get_field('page_content'); ?></div>
+								</div>
+							</section>
+							
 							<div class="services">
 								<?php if(have_rows('boxes')) : while(have_rows('boxes')) : the_row(); ?>
 									<div class="service">
@@ -48,15 +59,7 @@ $blogs = new WP_Query($args);
 								<?php endwhile; endif; ?>
 							</div>
 
-							<section class="bio large-wrapper">
-								<div class="img">
-									<?php $bImg = get_field('page_content_image'); if(!empty($bImg)) {echo "<img class='image' src=$bImg[url] alt=$bImg[alt] />";} ?>
-								</div>
-								<div class="page-content">
-									<h1 class="title"><?php echo get_field('page_title'); ?></h1>
-									<div class="text"><?php echo get_field('page_content'); ?></div>
-								</div>
-							</section>
+							
 						</section>
 
 						<section class="email-signup">
